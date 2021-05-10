@@ -1,0 +1,43 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 30px;
+}
+
+/* solid double dashed ile cercenin cuzgu turunu belirler*/
+/* 1. sisi cizgi kalinligi, 2.si cizgi turunu 3.susu renk veriri*/
+
+.tablo {
+  border: 3px solid gray;
+  border-collapse: collapse; /*Tablodaki cift cizgileri tek bir cizgi haline getiryor*/
+  width: 300px; /*Yuzdelik dilim sayfaya gore hesaplanir*/
+  margin-left: auto; /*Sol ve sagdan otamatik olarak bosluk koyarak nesnelr ortaya hizalanabilri.*/
+  margin-right: auto;
+}
+
+/* Birden fazla ayni stillendilrime yapilacaksa birden fazla atribute stillendirlme yapilacaksa virgul ile ayrilarak yazilbailir.*/
+
+th,
+td {
+  border: 3px solid gray;
+}
+
+th {
+  background-color: brown;
+}
+
+tr:hover {
+  background-color: rgb(
+    0,
+    255,
+    21
+  ); /* hover ozelligiyle satirlarin uzerine gelince ranklendirme yapilabilir.*/
+}
+
+tr:nth-child(even) {
+  background-color: gray; /*Bununla satiralri zebra yapma ozelligini veririz*/
+}

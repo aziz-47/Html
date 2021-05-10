@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML | TABLO EKLE | CSS inline</title>
+    <style>
+      /*Bu alan CSS kodalri icerir..*/
+      /* CSS Selectorler ile istenilen HTML elemanalrina stillendrime yapilabilri*/
+      /* Style etiketi ile yapilan stilendirmeler sadece bu dosya icin gecerli olur. 
+      Eger tum proje icin global bir 
+      stillendirme istersek, harci bir .CSS  dosyaysi olsuturmak gereklidir ve
+      bu dosyayi HTML de import etmek gerekir*/
+      * {
+        text-align: center;
+      }
+      h1 {
+        color: green;
+        font-size: 25px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        margin: 30px;
+      }
+      p {
+        color: blue;
+      }
+      #p1 {
+        color: blueviolet;
+      }
+
+      .p2 {
+        color: aqua;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 30px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TABLO EKLEME</h1>
+    <h1>CSS STILLENDIRME</h1>
+    <!-- id bir CSS selectordur. Ve id tek elemnet stillendirilcekse kullnmak daha mantiklidir.
+    ide ye erisim icin stillnedilimede #  kullanilir. -->
+
+    <!-- HTML CSS de isimlendirilme yapilirken kebep-case kulanlir -->
+    <p id="p1">Bu bir paragaraftir</p>
+    <!-- Class selectoru ise grup stillendilrimsei icin kullanilir. -->
+    <p class="p2">Bu da baska bir paragaraftir</p>
+    <p class="p2">CSS HTML'e gore daha fazla detay icermeketedir</p>
+  </body>
+</html>
