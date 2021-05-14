@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* top(ust) right, botom(alt),left usten basalayip saat yonuden verilir */
+  /*  margin: 200px 30px 40px 50px; */ /* Bu sekilde margin verilirse dordune birden margin verilri */
+  margin: 30px 20px; /* ıkılı sekılde verıldıgınde ust*alt 30 px sag*sol 200 px verılır */
+  text-align: center;
+  font-weight: bolder; /* bu yaziyi kalinlastirmak icin kullanilir */
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+.header {
+  color: white;
+  background-color: red;
+  height: 100px; /* yusekligi ayarlamak icin kullanilir. */
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  padding: 10px;
+  background: rgb(80, 80, 219);
+}
+
+.aside {
+  background: yellow;
+  float: left;
+  width: 25%;
+  height: 70%;
+}
+.main {
+  float: left;
+  width: 75%;
+  background-color: antiquewhite;
+  height: 70%;
+}
+
+.footer {
+  padding: 30px;
+  background: rgb(105, 102, 102);
+}

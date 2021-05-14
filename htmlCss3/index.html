@@ -3,16 +3,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formlar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="assets/style.css" />
+    <title>Formlar</title>
+    
+
   </head>
   <body>
     <h1>FORMLAR</h1>
     <form action="kaydet.php">
-      <label for="">Adiniz</label>
-      <input class="input" id="ad" type="text" placeholder="isim giriniz" />
+      <label  class="label" for="">Adiniz</label>
+      <input
+        class="input"
+        id="ad"
+        type="text"
+        maxlength="20"
+        name="adi"  
+        placeholder="isim giriniz"
+      />
       <br />
-      <label for="">Sifreniz</label>
+      <label class="label for="">Sifreniz</label>
       <input
         class="input"
         id="sifre"
@@ -21,11 +34,11 @@
         value=""
         required=""
       /><br />
-      <label for="">email</label>
+      <label  class="label for="">email</label>
       <input class="input" id="email" type="email" name="email" value="" />
       <br />
 
-      <label for="">Yasiniz</label>
+      <label  class="label for="">Yasiniz</label>
       <input
         class="input"
         id="sayi"
@@ -36,8 +49,14 @@
         min="0"
       />
       <br />
-      <input type="submit" value="Gonder" />
-      <input type="button" value="Temizle" />
+      <label  class="label" for="adres">Adres</label>
+      <textarea name="text-alani" id="adres"  rows="10"></textarea><br>
+      <button class ="btn" type="submit">  <i class="far fa-save">
+
+      </i>Gonder</button>
+      <button class="btn" type="reset"> <i class="fas fa-trash-alt"></i>Temizle</button>
+      
+     
     </form>
   </body>
 </html>

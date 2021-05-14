@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: red;
+}
+img {
+  width: 100px; /*Burda  witdh ile resmi kucultme islemi yaptik  */
+}
+
+.kutu {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 300px;
+  background: aquamarine;
+}
+.kutu.orta {
+  background: wheat;
+  width: 700px;
+}
+
+.kutu.alt {
+  background-image: linear-gradient(rgb(101, 101, 201), gray);
+  width: 900;
+}
+.kutu1 {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  float: left; /* float sayseisnde divelri yana  yana dizebiliz.Yani yan yna koyabilriz uzunluklariuna gore 
+  Block nesnleri yana yana dizmek icin kullanilir*/
+}
+.kutu1.sari {
+  width: 40%; /* yana yna dizilen nesnelrin buyukleri yuzde ile belirlenebilir. */
+  background-color: yellow;
+}
+.kutu1.yesil {
+  width: 20%;
+  background-color: green;
+}
+
+.kutu1.kirmizi {
+  width: 30%;
+  background-color: red;
+}
+
+.kutu1.mavi {
+  width: 10%;
+  background-color: blue;
+}
+
+.kutu1.mor {
+  width: 100%;
+  background-color: mediumorchid;
+}
+
+/* float-left kullanildiginda alt satira gecildiginde ust satir ile bir birlesme olursa clerarfix adinda
+bir hack yontemi kullanilabilri.Bunun icin birlesen satira bir div eklnir. */
+
+.clearfix {
+  clear: both;
+}

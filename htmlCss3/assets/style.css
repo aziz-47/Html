@@ -1,9 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 * {
   text-align: center;
+  margin: 0; /* Baran tum marginleri sifirla*/
+  box-sizing: border-box;
+  /* Box-sizing CSS de kullanilan kutu modelini secmek icin kullanilir.Genelde border-box modeli tercih edilri*/
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+body {
+  background-image: linear-gradient(rgb(82, 75, 75), rgb(211, 211, 68));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .input {
   margin-bottom: 20px;
   width: 200px;
   height: 25px;
+}
+
+.label {
+  display: block; /* inline olan bir eleman block hale geitirilebilir.. <br> yerinede kulllanilabilr.*/
+  margin-right: 10px;
+}
+
+.btn {
+  font-size: 18px;
+  color: red;
+  width: 120;
+  height: 40px;
+  margin-top: 10px;
+  border: 2px solid green;
+  border-radius: 20px;
+  background: aqua;
+  cursor: pointer;
+}
+.btn:hover {
+  background: gold;
+}
+.far,
+.fas {
+  font-size: 25px;
+}
+
+i {
+  color: black;
+}
+
+textarea {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  width: 200px;
+  border-radius: 10px;
 }
