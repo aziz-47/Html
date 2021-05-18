@@ -45,25 +45,30 @@ img {
 .kutu1.sari {
   width: 40%; /* yana yna dizilen nesnelrin buyukleri yuzde ile belirlenebilir. */
   background-color: yellow;
+  padding: 15px;
 }
 .kutu1.yesil {
   width: 20%;
   background-color: green;
+  padding: 15px;
 }
 
 .kutu1.kirmizi {
   width: 30%;
   background-color: red;
+  padding: 15px;
 }
 
 .kutu1.mavi {
   width: 10%;
   background-color: blue;
+  padding: 15px;
 }
 
 .kutu1.mor {
   width: 100%;
   background-color: mediumorchid;
+  padding: 15px;
 }
 
 /* float-left kullanildiginda alt satira gecildiginde ust satir ile bir birlesme olursa clerarfix adinda
