@@ -37,8 +37,8 @@ img {
 }
 .kutu1 {
   margin-top: 20px;
-  width: 200px;
-  height: 50px;
+  width: 200px; /* Genislik */
+  height: 50px; /* yukseklik */
   float: left; /* float sayseisnde divelri yana  yana dizebiliz.Yani yan yna koyabilriz uzunluklariuna gore 
   Block nesnleri yana yana dizmek icin kullanilir*/
 }
